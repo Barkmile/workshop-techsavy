@@ -7,6 +7,10 @@ html, body {
     font-family:'Roboto','sans-serif';
 }
 
+img{
+    width:100%;
+    height:100%;
+}
 h1{
     font-weight:700;
     font-size:74px;
@@ -16,7 +20,7 @@ h1{
 
 p{
     font-weight:400;
-    font-size:30px;
+    font-size:22px;
 }
 
 header.jumbotron{
@@ -38,4 +42,17 @@ main.main{
     width:84vw;
     max-width:1200px;
     margin:0 auto;
+}
+
+section.project-items{
+    margin-top:8vw;
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+article.project-item{
+    width:48%;
+    margin-bottom: 3vw;
 }
